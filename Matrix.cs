@@ -2,5 +2,5 @@
 
 public class Matrix<T>
 {
-
+    private T[,] _data;
 }
