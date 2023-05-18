@@ -34,7 +34,7 @@ public class Matrix<T>
     public T this[int row, int column]
     {
         get { return this.Data[row, column]; }
-        set { this._data[row, column] = value; }
+        set { this.Data[row, column] = value; }
     }
 
     public void Fill(T value)
