@@ -43,7 +43,7 @@ public class Matrix<T>
         {
             for (int j = 0; j < this.Columns; j++)
             {
-
+                this.Data[i, j] = value;
             }
         }
     }
