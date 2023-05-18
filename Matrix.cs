@@ -24,6 +24,6 @@ public class Matrix<T>
 
     public Matrix(int rows, int columns)
     {
-
+        this._data = new T[rows, columns];
     }
 }
