@@ -16,4 +16,9 @@ public class Matrix<T>
     {
         get { return this._rows; }
     }
+
+    public int Columns
+    {
+        get { return this._columns; }
+    }
 }
