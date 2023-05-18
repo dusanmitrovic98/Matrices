@@ -27,7 +27,7 @@ public class Matrix<T>
     public Matrix(int rows, int columns)
     {
         this.Data = new T[rows, columns];
-        this._rows = rows;
+        this.Rows = rows;
         this._columns = columns;
     }
 
