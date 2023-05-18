@@ -1,5 +1,5 @@
 ﻿namespace DataStructures.Collections.Matrices;
-public class Class1
+public class Matrix
 {
 
 }
