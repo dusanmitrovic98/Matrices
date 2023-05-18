@@ -26,5 +26,6 @@ public class Matrix<T>
     {
         this._data = new T[rows, columns];
         this._rows = rows;
+        this._columns = columns;
     }
 }
