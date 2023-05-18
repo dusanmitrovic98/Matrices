@@ -1,6 +1,6 @@
 ﻿namespace DataStructures.Collections.Matrices;
 
-public class Matrix
+public class Matrix<T>
 {
 
 }
