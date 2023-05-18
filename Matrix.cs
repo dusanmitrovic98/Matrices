@@ -11,4 +11,9 @@ public class Matrix<T>
         get { return this._data; }
         set { this._data = value; }
     }
+
+    public int Rows
+    {
+        get { return this._rows; }
+    }
 }
