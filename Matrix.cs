@@ -34,4 +34,9 @@ public class Matrix<T>
         get { return this._data[row, column]; }
         set { this._data[row, column] = value; }
     }
+
+    public void Fill(T value)
+    {
+
+    }
 }
