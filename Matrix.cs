@@ -37,6 +37,9 @@ public class Matrix<T>
 
     public void Fill(T value)
     {
+        for (int i = 0; i < this.Rows; i++)
+        {
 
+        }
     }
 }
