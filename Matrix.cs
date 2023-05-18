@@ -33,7 +33,7 @@ public class Matrix<T>
 
     public T this[int row, int column]
     {
-        get { return this._data[row, column]; }
+        get { return this.Data[row, column]; }
         set { this._data[row, column] = value; }
     }
 
