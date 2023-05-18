@@ -41,7 +41,10 @@ public class Matrix<T>
     {
         for (int i = 0; i < this.Rows; i++)
         {
+            for (int j = 0; j < this.Columns; j++)
+            {
 
+            }
         }
     }
 }
