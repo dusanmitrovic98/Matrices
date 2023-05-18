@@ -28,4 +28,9 @@ public class Matrix<T>
         this._rows = rows;
         this._columns = columns;
     }
+
+    public T this[int row, int column]
+    {
+        get { return this._data[row, column]; }
+    }
 }
