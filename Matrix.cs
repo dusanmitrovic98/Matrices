@@ -15,6 +15,7 @@ public class Matrix<T>
     public int Rows
     {
         get { return this._rows; }
+        private set { this._rows = value; }
     }
 
     public int Columns
