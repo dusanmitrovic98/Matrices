@@ -21,4 +21,9 @@ public class Matrix<T>
     {
         get { return this._columns; }
     }
+
+    public Matrix(int rows, int columns)
+    {
+
+    }
 }
